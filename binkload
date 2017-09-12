@@ -1,6 +1,7 @@
 #!/bin/bash
-# binkload ~ Emma N. Skye <emma@skyenet.org>
-# This assumes the prescence of the ~/.steam symlink.
+# binkload ~ Emma N. Skye <emma@skyenet.org>, Modified by Planted World
+
+# TODO: Find a better way to find the csgo bin folder
 csgo_bin64=$(realpath ~/.steam/steam/steamapps/common/Counter-Strike\ Global\ Offensive/bin/linux64)
 
 # Print usage when no arguments are specified.
